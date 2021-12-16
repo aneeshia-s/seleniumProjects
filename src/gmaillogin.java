@@ -25,11 +25,11 @@ public class gmaillogin {
 	    	WebElement secondname = driver.findElement(By.xpath("//*[@id=\"lastName\"]"));
 	    	secondname.sendKeys("S");
 	    	WebElement email = driver.findElement(By.xpath("//*[@id=\"username\"]"));
-		    email.sendKeys("aneeshiasasidharan123");
+		    email.sendKeys("aneeshia123");
 		    WebElement pwd1 = driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[3]/div[1]/div/div/div[1]/div/div[1]/div/div[1]/input"));
-		    pwd1.sendKeys("krishnan123");
+		    pwd1.sendKeys("*******");
 		    WebElement pwd2 = driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[3]/div[1]/div/div/div[2]/div/div[1]/div/div[1]/input"));
-		    pwd2.sendKeys("krishnan123");
+		    pwd2.sendKeys("********");
 		    
 		    WebElement next = driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[2]/div/div/div[2]/div/div[2]/div/div[1]/div/div/button/div[2]"));
 		    next.click();
